@@ -16,3 +16,12 @@ How to delete a repository?
 
 How to modify and deploy to github
 1.git init
+2.modify the doc(You are still in the master branch)
+3.git branch xxx (create a new branch called "xxx")
+4.git checkout xxx (shift to the new branch)
+5.git add . 
+6.git commit -m "xxxxx" (stage the modification to the new branch)
+7.git checkout master (shift to master branch)
+8.git merge xxx (merge master branch and new branch, now master branch point to the new branch)
+9.git push origin master (deploy the master to github)
+10.git branch -d xxx (delete the new branch, the master always point the newest branch)

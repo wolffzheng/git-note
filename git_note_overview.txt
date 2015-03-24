@@ -25,3 +25,8 @@ How to modify and deploy to github
 8.git merge xxx (merge master branch and new branch, now master branch point to the new branch)
 9.git push origin master (deploy the master to github)
 10.git branch -d xxx (delete the new branch, the master always point the newest branch)
+
+
+fetch from repository
+git fetch origin 从远程库origin中更新到PC 中去
+git remote --v 可以查看所有的远程库

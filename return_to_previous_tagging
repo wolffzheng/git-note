@@ -1,4 +1,5 @@
 git log
 copy the hash code
 then 
+***copy the unwanted file to somewhere else,unless it will be removed to bin.
 git reset --hard hash

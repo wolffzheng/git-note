@@ -1,0 +1,4 @@
+git log
+copy the hash code
+then 
+git reset --hard hash

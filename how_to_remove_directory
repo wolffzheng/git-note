@@ -1,0 +1,3 @@
+git rm -r need-to-deleted-directories
+git commit -m "Remove duplicated directory"
+git push origin master
